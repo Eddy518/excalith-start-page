@@ -1,5 +1,5 @@
 {
-	"username": "Excalith",
+	"username": "edterm",
 	"theme": {
 		"name": "Nord",
 		"backgroundColor": "#2e3440",
@@ -16,7 +16,7 @@
 		"gray": "#d8dee9"
 	},
 	"wallpaper": {
-		"url": "assets/pixel_art.png",
+		"url": "assets/trees.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -103,119 +103,66 @@
 				"alias": "w",
 				"name": "Wikipedia Search",
 				"url": "https://en.wikipedia.org/wiki/{}"
+			},
+			{
+			"alias": "t",
+			  "name": "The Odin Project Search",
+			  "url": "https://www.google.com/search?q=site:theodinproject.com+{}"
 			}
 		]
 	},
 	"sections": {
 		"list": [
 			{
-				"title": "General",
-				"color": "green",
+				"title": "Quick Access links",
+				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
-						"name": "Portfolio",
-						"url": "https://cancellek.com",
-						"icon": "mdi:web"
+						"name": "TOP",
+						"url": "https://www.theodinproject.com/dashboard",
+						"icon": "simple-icons:theodinproject"
 					},
 					{
-						"name": "Keybase",
-						"url": "https://keybase.io/",
-						"icon": "fa-brands:keybase"
+						"name": "Codewars",
+						"url": "https://www.codewars.com/",
+						"icon": "simple-icons:codewars"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/",
-						"icon": "simple-icons:openai"
+						"name": "React",
+						"url": "https://react.dev/",
+						"icon": "simple-icons:react"
 					},
 					{
-						"name": "OCI",
-						"url": "https://www.oracle.com/cloud/",
-						"icon": "simple-icons:oracle"
+						"name": "MDN",
+						"url": "https://developer.mozilla.org/en-US/",
+						"icon": "simple-icons:mdnwebdocs"
 					}
 				]
 			},
-			{
-				"title": "Dev",
+	  			{
+				"title": "|",
 				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
 						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
+						"url": "https://github.com/sheu-1/TNT",
+						"icon": "simple-icons:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "ph:gitlab-logo-simple-fill"
+						"name": "TNT",
+						"url": "https://github.com/sheu-1/TNT",
+						"icon": "simple-icons:github"
 					},
-					{
-						"name": "Dev.to",
-						"url": "https://dev.to",
-						"icon": "material-symbols:logo-dev"
-					},
-					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
-					}
-				]
-			},
-			{
-				"title": "RTFM",
-				"color": "cyan",
-				"align": "left",
-				"links": [
-					{
-						"name": "Twitter",
-						"url": "https://twitter.com",
-						"icon": "mdi:twitter"
-					},
-					{
-						"name": "Mastodon",
-						"url": "https://mastodon.social/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "Reddit",
-						"url": "https://reddit.com",
-						"icon": "mdi:reddit"
-					},
-					{
-						"name": "Polywork",
-						"url": "https://polywork.com",
-						"icon": "simple-icons:polywork"
-					}
-				]
-			},
-			{
-				"title": "Tech",
-				"color": "yellow",
-				"align": "left",
-				"links": [
-					{
-						"name": "TechCrunch",
-						"url": "https://techcrunch.com/",
-						"icon": "game-icons:techno-heart"
-					},
-					{
-						"name": "Verge",
-						"url": "https://www.theverge.com/",
-						"icon": "arcticons:verge"
-					},
-					{
-						"name": "It's Foss",
-						"url": "https://itsfoss.com/",
-						"icon": "ri:mastodon-fill"
-					},
-					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "uil:linux"
+		            {
+						"name": "tldraw",
+						"url": "https://www.tldraw.com",
+						"icon": "simple-icons:tldraw"
 					}
 				]
 			}
+
 		]
 	}
 }
