@@ -105,9 +105,19 @@
 				"url": "https://en.wikipedia.org/wiki/{}"
 			},
 			{
-			"alias": "t",
-			  "name": "The Odin Project Search",
-			  "url": "https://www.google.com/search?q=site:theodinproject.com+{}"
+				"alias": "t",
+				"name": "The Odin Project Search",
+				"url": "https://www.google.com/search?q=site:theodinproject.com+{}"
+			},
+			{
+				"alias": "lch",
+				"name": "Localhost Search",
+				"url": "http://127.0.0.1:{}/"
+			},
+			{
+				"alias": "yt",
+				"name": "Youtube Search",
+				"url": "https://www.youtube.com/results?search_query={}"
 			}
 		]
 	},
@@ -140,14 +150,14 @@
 					}
 				]
 			},
-	  			{
+			{
 				"title": "|",
 				"color": "magenta",
 				"align": "left",
 				"links": [
 					{
 						"name": "GitHub",
-						"url": "https://github.com/sheu-1/TNT",
+						"url": "https://github.com/Eddy518/",
 						"icon": "simple-icons:github"
 					},
 					{
@@ -155,14 +165,18 @@
 						"url": "https://github.com/sheu-1/TNT",
 						"icon": "simple-icons:github"
 					},
-		            {
+					{
 						"name": "tldraw",
 						"url": "https://www.tldraw.com",
 						"icon": "simple-icons:tldraw"
+					},
+					{
+						"name": "Youtube",
+						"url": "https://www.youtube.com/",
+						"icon": "simple-icons:youtube"
 					}
 				]
 			}
-
 		]
 	}
 }
