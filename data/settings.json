@@ -118,6 +118,11 @@
 				"alias": "yt",
 				"name": "Youtube Search",
 				"url": "https://www.youtube.com/results?search_query={}"
+			},
+			{
+				"alias": "mdn",
+				"name": "MDN Search",
+				"url": "mdn.io/{}"
 			}
 		]
 	},
@@ -147,6 +152,11 @@
 						"name": "MDN",
 						"url": "https://developer.mozilla.org/en-US/",
 						"icon": "simple-icons:mdnwebdocs"
+					},
+					{
+						"name": "Devdocs",
+						"url": "https://devdocs.io",
+						"icon": "simple-icons:readthedocs"
 					}
 				]
 			},
