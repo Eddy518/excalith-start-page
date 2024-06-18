@@ -122,7 +122,7 @@
 			{
 				"alias": "mdn",
 				"name": "MDN Search",
-				"url": "mdn.io/{}"
+				"url": "https://mdn.io/{}"
 			}
 		]
 	},
@@ -184,6 +184,11 @@
 						"name": "Youtube",
 						"url": "https://www.youtube.com/",
 						"icon": "simple-icons:youtube"
+					},
+					{
+						"name": "JS Info",
+						"url": "https://javascript.info/",
+						"icon": "simple-icons:javascript"
 					}
 				]
 			}
