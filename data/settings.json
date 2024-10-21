@@ -16,7 +16,7 @@
 		"gray": "#d8dee9"
 	},
 	"wallpaper": {
-		"url": "assets/trees.png",
+		"url": "assets/new_moon.png",
 		"easing": "ease-in-out",
 		"fadeIn": true,
 		"blur": false
@@ -32,7 +32,7 @@
 	"prompt": {
 		"ctrlC": true,
 		"placeholder": "command...",
-		"placeholderColor": "gray",
+		"placeholderColor": "blue",
 		"userColor": "green",
 		"atColor": "gray",
 		"hostColor": "magenta",
@@ -100,6 +100,11 @@
 				"url": "https://reddit.com/r/{}"
 			},
 			{
+				"alias": "rd",
+				"name": "Reddit Query Search",
+				"url": "https://google.com/search?q={} + site:reddit.com"
+			},
+			{
 				"alias": "w",
 				"name": "Wikipedia Search",
 				"url": "https://en.wikipedia.org/wiki/{}"
@@ -144,9 +149,31 @@
 						"icon": "simple-icons:codewars"
 					},
 					{
+						"name": "Exercism",
+						"url": "https://exercism.org/dashboard",
+						"icon": "simple-icons:exercism"
+					},
+					{
 						"name": "React",
 						"url": "https://react.dev/",
 						"icon": "simple-icons:react"
+					}
+				]
+			},
+			{
+				"title": "|",
+				"color": "magenta",
+				"align": "left",
+				"links": [
+					{
+						"name": "Typescript",
+						"url": "https://www.typescriptlang.org/docs/",
+						"icon": "simple-icons:typescript"
+					},
+					{
+						"name": "JS Info",
+						"url": "https://javascript.info/",
+						"icon": "simple-icons:javascript"
 					},
 					{
 						"name": "MDN",
@@ -166,29 +193,24 @@
 				"align": "left",
 				"links": [
 					{
+						"name": "Node JS",
+						"url": "https://nodejs.org/docs/latest/api/",
+						"icon": "simple-icons:nodedotjs"
+					},
+					{
+						"name": "Git book",
+						"url": "https://git-scm.com/book/en/v2",
+						"icon": "simple-icons:git"
+					},
+					{
 						"name": "GitHub",
 						"url": "https://github.com/Eddy518/",
 						"icon": "simple-icons:github"
 					},
 					{
-						"name": "TNT",
-						"url": "https://github.com/sheu-1/TNT",
-						"icon": "simple-icons:github"
-					},
-					{
-						"name": "tldraw",
-						"url": "https://www.tldraw.com",
-						"icon": "simple-icons:tldraw"
-					},
-					{
 						"name": "Youtube",
 						"url": "https://www.youtube.com/",
 						"icon": "simple-icons:youtube"
-					},
-					{
-						"name": "JS Info",
-						"url": "https://javascript.info/",
-						"icon": "simple-icons:javascript"
 					}
 				]
 			}
